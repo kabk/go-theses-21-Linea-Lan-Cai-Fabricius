@@ -29,154 +29,19 @@
 
 body,
 html {
-  background-color: #dedfc3;
-}
-
-#Abstract-dropdown {
-  height: 100%;
-  margin-left: 0vw;
-  margin-top: 20px;
-
-}
-
-#Abstract-content {
-  display: none;
-  /* margin-left: 20px; */
-  margin-top: 10px;
-  /* background-color: #dedfc3;
-  box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px; */
-}
-
-#Introduction-dropdown {
-  height: 100%;
-  margin-left: 0vw;
-  margin-top: 20px;
-}
-
-#Introduction-content {
-  display: none;
-  /* margin-left: 20px; */
-  margin-top: 0px;
-  /* background-color: #dedfc3;
-  box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px; */
-}
-
-#Overview-dropdown {
-  height: 100%;
-  margin-left: 0vw;
-  margin-top: 20px;
-
-}
-
-#Overview-content {
-  display: none;
-  /* margin-left: 20px; */
-  margin-top: 0px;
-  /* background-color: #dedfc3;
-  box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px; */
-}
-
-#Governmental-dropdown {
-  height: 100%;
-  margin-left: 0vw;
-  margin-top: 20px;
-}
-
-#Governmental-content {
-  display: none;
-  /* margin-left: 20px; */
-  margin-top: 0px;
-  /* background-color: #dedfc3;
-  box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px; */
-}
-
-#Sociocultural-dropdown {
-  height: 100%;
-  margin-left: 0vw;
-  margin-top: 20px;
-}
-
-#Sociocultural-content {
-  display: none;
-  /* margin-left: 20px; */
-  margin-top: 0px;
-  /* background-color: #dedfc3;
-  box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px; */
-}
-
-#Conclusion-dropdown {
-  height: 100%;
-  margin-left: 0vw;
-  margin-top: 20px;
-}
-
-#Conclusion-content {
-  display: none;
-  /* margin-left: 20px; */
-  margin-top: 0px;
-  /* background-color: #dedfc3;
-  box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px; */
-}
-
-#Biography-dropdown {
-  height: 100%;
-  margin-left: 0vw;
-  margin-top: 20px;
-}
-
-#Biography-content {
-  display: none;
-  /* margin-left: 20px; */
-  margin-top: 0px;
-  /* background-color: #dedfc3;
-  box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px; */
-}
-
-.container {
-  padding-top: 55px;
-  padding-left: 20px;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  /* overflow: hidden; */
-
-}
-
-@media only screen and (orientation:landscape) {
-  .container {
-    padding-top: 35px;
-    padding-left: 20px;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-}
-
-#header {
-  padding-top: 10px;
-  padding-left: 10px;
-  position: fixed;
-  background-color: #6426ef;
-  width: 100vw;
+  background-color: white;
 }
 
 .title {
-  font-family: 'RimaRegular', serif;
+  padding-top: 20px;
+  font-family: 'RimaRegular';
   font-weight: 800;
   font-style: normal;
   text-align: center;
   font-size: 18px;
   line-height: 21.5px;
-  background-color: #dedfc3;
-  box-shadow: inset 0px 1px 5px black;
+  background-color: white;
+  box-shadow: inset 0px 1px 2px black;
   border-radius: 25px;
   /*  margin-top:10px;*/
   margin-top: 5px;
@@ -190,7 +55,7 @@ html {
 
 .footnotes p {
   margin-left: 40px;
-  font-family: 'RimaRegularitalic', sans-serif;
+  font-family: 'RimaRegularitalic';
   font-weight: 100;
   font-style: normal;
   margin-right: 10vw;
@@ -209,7 +74,7 @@ html {
 }
 
 .paragraph sup {
-  font-family: 'RimaRegular', sans-serif;
+  font-family: 'RimaRegular';
   font-weight: 100;
   font-style: normal;
   font-size: 10px;
@@ -222,7 +87,7 @@ p {
   /*  margin-left:30px;*/
   margin-left: 20px;
   /* text-indent: 30px; */
-  font-family: 'RimaRegular', serif;
+  font-family: 'RimaRegular';
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -237,19 +102,23 @@ p {
 }
 
 h5 {
-  font-family: 'RimaRegular', serif;
-  font-weight: 500;
+  font-family: 'Till-Normal';
+  font-weight: 900;
   font-style: normal;
-  font-size: 32px;
+  display: flex;
+  font-size: 66px;
   -webkit-font-smoothing: antialiased;
-  border-bottom: black 1px solid;
-  padding-bottom: 10px;
-  padding-top: 5px;
-  padding-left: 5px;
+  /* border-bottom: black 1px solid; */
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  position: fixed;
+  display: flex;
+  background-color: white;
 }
 
 h1 {
-  font-family: 'Till-Normal', sans-serif;
+  font-family: 'Till-Normal';
   font-weight: 600;
   font-style: normal;
   font-size: 30px;
@@ -258,24 +127,24 @@ h1 {
 }
 
 h2 {
-  font-family: 'RimaRegular', serif;
+  font-family: 'RimaRegular';
   font-weight: 400;
   font-style: italic;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   margin-top: 2px;
 }
 
 i {
-  font-family: 'RimaRegularitalic', serif;
+  font-family: 'RimaRegularitalic';
   font-weight: 400;
   font-size: 18px;
   line-height: 17px;
 }
 
 a {
-  font-family: 'RimaRegular', sans-serif;
+  font-family: 'RimaRegular';
   font-weight: 500;
   font-style: normal;
   font-size: 15px;
@@ -291,7 +160,8 @@ svg {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  display: block;
+  display: flex;
+  position: relative;
 }
 
 section {
@@ -301,4 +171,137 @@ section {
   font-style: normal;
   font-size: 15px;
   font-weight: normal;
+}
+
+@media only screen and (orientation:landscape) {
+  .container {
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+#Abstract-dropdown {
+  height: 100%;
+  margin-left: 0vw;
+  /* margin-top: 10px; */
+}
+
+#Abstract-content {
+  display: none;
+  /* margin-left: 20px; */
+  margin-top: 0px;
+  /* background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px; */
+}
+
+#Introduction-dropdown {
+  height: 100%;
+  margin-left: 0vw;
+  margin-top: 10px;
+}
+
+#Introduction-content {
+  display: none;
+  /* margin-left: 20px; */
+  margin-top: 0px;
+  /* background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px; */
+}
+
+#Overview-dropdown {
+  height: 100%;
+  margin-left: 0vw;
+  margin-top: 10px;
+}
+
+#Overview-content {
+  display: none;
+  /* margin-left: 20px; */
+  margin-top: 0px;
+  /* background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px; */
+}
+
+#Governmental-dropdown {
+  height: 100%;
+  margin-left: 0vw;
+  margin-top: 10px;
+}
+
+#Governmental-content {
+  display: none;
+  /* margin-left: 20px; */
+  margin-top: 0px;
+  /* background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px; */
+}
+
+#Sociocultural-dropdown {
+  height: 100%;
+  margin-left: 0vw;
+  margin-top: 10px;
+}
+
+#Sociocultural-content {
+  display: none;
+  /* margin-left: 20px; */
+  margin-top: 0px;
+  /* background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px; */
+}
+
+#Conclusion-dropdown {
+  height: 100%;
+  margin-left: 0vw;
+  margin-top: 10px;
+}
+
+#Conclusion-content {
+  display: none;
+  /* margin-left: 20px; */
+  margin-top: 0px;
+  /* background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px; */
+}
+
+#Biography-dropdown {
+  height: 100%;
+  margin-left: 0vw;
+  margin-top: 10px;
+}
+
+#Biography-content {
+  display: none;
+  /* margin-left: 20px; */
+  margin-top: 0px;
+  /* background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px; */
+}
+
+.container {
+  padding-top: 55px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+#header {
+  padding-top: 10px;
+  padding-left: 10px;
+  position: fixed;
+  display: flex;
+  width: 100vw;
 }
