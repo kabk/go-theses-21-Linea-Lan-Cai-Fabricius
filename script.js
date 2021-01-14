@@ -1,5 +1,11 @@
 
 $(document).ready(function(){
+  $("#Abstract-dropdown").click(function(){
+    $("#Abstract-content").slideToggle("slow");
+  });
+});
+
+$(document).ready(function(){
   $("#zero-dropdown").click(function(){
     $("#zero-content").slideToggle("slow");
   });
@@ -28,6 +34,12 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#four-dropdown").click(function(){
     $("#four-content").slideToggle("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#fifth-dropdown").click(function(){
+    $("#fifth-content").slideToggle("slow");
   });
 });
 

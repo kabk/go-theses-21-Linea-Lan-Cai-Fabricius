@@ -10,6 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility !important;
 }
+
 /* Fonts */
 @font-face {
   font-family: 'RimaRegular';
@@ -28,145 +29,192 @@
 
 body,
 html {
-background-color: #dedfc3;
+  background-color: #dedfc3;
 }
 
-
-#zero-dropdown{
+#Abstract-dropdown {
   height: 100%;
-  margin-left:20px;
-  margin-top:20px;
+  margin-left: 0vw;
+  margin-top: 20px;
 
+}
+
+#Abstract-content {
+  display: none;
+  /* margin-left: 20px; */
+  background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px;
+}
+
+#zero-dropdown {
+  height: 100%;
+  margin-left: 0vw;
+  margin-top: 20px;
 }
 
 #zero-content {
   display: none;
-  margin-left:20px;
+  /* margin-left: 20px; */
+  margin-top: 20px;
+  background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px;
 }
 
-#one-dropdown{
+#one-dropdown {
   height: 100%;
-  margin-left:20px;
-  margin-top:30px;
+  margin-left: 0vw;
+  margin-top: 20px;
 }
 
 #one-content {
   display: none;
-  margin-left:20px;
+  /* margin-left: 20px; */
+  margin-top: 20px;
+  background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px;
 }
 
-#two-dropdown{
+#two-dropdown {
   height: 100%;
-  margin-left:20px;
-  margin-top:30px;
+  margin-left: 0vw;
+  margin-top: 30px;
 }
 
 #two-content {
   display: none;
-  margin-left:20px;
+  /* margin-left: 20px; */
+  margin-top: 20px;
+  background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px;
 }
 
-#three-dropdown{
+#three-dropdown {
   height: 100%;
-  margin-left:20px;
-  margin-top:30px;
-
+  margin-left: 0vw;
+  margin-top: 30px;
 }
 
 #three-content {
   display: none;
-  margin-left:20px;
+  /* margin-left: 20px; */
+  margin-top: 20px;
+  background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px;
 }
 
-#four-dropdown{
+#four-dropdown {
   height: 100%;
-  margin-left:20px;
-  margin-top:30px;
-
+  margin-left: 0vw;
+  margin-top: 30px;
 }
 
 #four-content {
   display: none;
-  margin-left:20px;
+  /* margin-left: 20px; */
+  margin-top: 20px;
+  background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px;
+}
+
+#fifth-dropdown {
+  height: 100%;
+  margin-left: 0vw;
+  margin-top: 30px;
+}
+
+#fifth-content {
+  display: none;
+  /* margin-left: 20px; */
+  margin-top: 20px;
+  background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px;
 }
 
 .container {
-  padding-top:75px;
-  padding-left:20px;
+  padding-top: 75px;
+  padding-left: 20px;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 @media only screen and (orientation:landscape) {
-    .container {
-    padding-top:35px;
-    padding-left:20px;
+  .container {
+    padding-top: 35px;
+    padding-left: 20px;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    overflow:hidden;
+    overflow: hidden;
   }
 }
 
-
 #header {
-  padding-top:5px;
-  padding-left:5px;
+  padding-top: 5px;
+  padding-left: 5px;
   position: fixed;
   background-color: #6426ef;
-  width:100vw;
+  width: 100vw;
 }
 
-
-.title{
-  background-color: #6426ef;
-/*  margin-top:10px;*/
-  margin-top:5px;
+.title {
+  font-family: 'RimaRegular', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 20.5px;
+  background-color: #dedfc3;
+  /*  margin-top:10px;*/
+  margin-top: 5px;
   margin-right: 5vw;
   height: 100%;
 }
 
-
-.paragraph{
+.paragraph {
   margin-right: 10vw;
 }
 
-.footnotes p{
-  margin-left:40px;
+.footnotes p {
+  margin-left: 40px;
   font-family: 'RimaRegularitalic', sans-serif;
   font-weight: 100;
   font-style: normal;
   margin-right: 10vw;
-  font-size:10px;
+  font-size: 10px;
   display: inline;
-  color:black;
+  color: black;
   text-indent: 0px;
   line-height: -50px;
 }
 
-.footnotes{
+.footnotes {
   margin-right: 10vw;
   height: 100%;
-  margin-left:60px;
+  margin-left: 60px;
   text-indent: -40px;
 }
 
-.paragraph sup{
+.paragraph sup {
   font-family: 'RimaRegular', sans-serif;
   font-weight: 100;
   font-style: normal;
-  font-size:10px;
-  color:black;
+  font-size: 10px;
+  color: black;
   margin-bottom: -3px;
-  line-height:10px !important;
+  line-height: 10px !important;
 }
 
-
-p{
-/*  margin-left:30px;*/
-  margin-left:20px;
+p {
+  /*  margin-left:30px;*/
+  margin-left: 20px;
   /* text-indent: 30px; */
   font-family: 'RimaRegular', serif;
   font-weight: 400;
@@ -175,14 +223,14 @@ p{
   line-height: 20.5px;
   -webkit-font-smoothing: antialiased;
   hyphens: auto;
-  -webkit-hyphens:auto;
-  -ms-hyphens:auto;
-/*  text-align: justify;*/
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  /*  text-align: justify;*/
   text-justify: inter-word;
-  overflow-wrap:break-word;
+  overflow-wrap: break-word;
 }
 
-h5{
+h5 {
   font-family: 'RimaRegular', serif;
   font-weight: 500;
   font-style: normal;
@@ -192,10 +240,9 @@ h5{
   padding-bottom: 10px;
   padding-top: 5px;
   padding-left: 5px;
-
 }
 
-h1{
+h1 {
   font-family: 'Till-Normal', sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -204,7 +251,7 @@ h1{
   -webkit-font-smoothing: antialiased;
 }
 
-h2{
+h2 {
   font-family: 'RimaRegular', serif;
   font-weight: 400;
   font-style: italic;
@@ -214,14 +261,14 @@ h2{
   margin-top: 2px;
 }
 
-i{
+i {
   font-family: 'RimaRegularitalic', serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 17px;
 }
 
-a{
+a {
   font-family: 'RimaRegular', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -238,9 +285,14 @@ svg {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  display:block;
+  display: block;
 }
 
 section {
   height: 500px;
+  font-family: 'Till-Normal', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: normal;
 }
