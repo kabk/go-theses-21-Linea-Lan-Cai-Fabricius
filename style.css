@@ -42,9 +42,10 @@ html {
 #Abstract-content {
   display: none;
   /* margin-left: 20px; */
-  background-color: #dedfc3;
+  margin-top: 10px;
+  /* background-color: #dedfc3;
   box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px;
+  border-radius: 25px; */
 }
 
 #Introduction-dropdown {
@@ -56,10 +57,10 @@ html {
 #Introduction-content {
   display: none;
   /* margin-left: 20px; */
-  margin-top: 20px;
-  background-color: #dedfc3;
+  margin-top: 0px;
+  /* background-color: #dedfc3;
   box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px;
+  border-radius: 25px; */
 }
 
 #Overview-dropdown {
@@ -72,10 +73,10 @@ html {
 #Overview-content {
   display: none;
   /* margin-left: 20px; */
-  margin-top: 20px;
-  background-color: #dedfc3;
+  margin-top: 0px;
+  /* background-color: #dedfc3;
   box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px;
+  border-radius: 25px; */
 }
 
 #Governmental-dropdown {
@@ -87,10 +88,10 @@ html {
 #Governmental-content {
   display: none;
   /* margin-left: 20px; */
-  margin-top: 20px;
-  background-color: #dedfc3;
+  margin-top: 0px;
+  /* background-color: #dedfc3;
   box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px;
+  border-radius: 25px; */
 }
 
 #Sociocultural-dropdown {
@@ -102,10 +103,10 @@ html {
 #Sociocultural-content {
   display: none;
   /* margin-left: 20px; */
-  margin-top: 20px;
-  background-color: #dedfc3;
+  margin-top: 0px;
+  /* background-color: #dedfc3;
   box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px;
+  border-radius: 25px; */
 }
 
 #Conclusion-dropdown {
@@ -117,10 +118,10 @@ html {
 #Conclusion-content {
   display: none;
   /* margin-left: 20px; */
-  margin-top: 20px;
-  background-color: #dedfc3;
+  margin-top: 0px;
+  /* background-color: #dedfc3;
   box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px;
+  border-radius: 25px; */
 }
 
 #Biography-dropdown {
@@ -132,10 +133,10 @@ html {
 #Biography-content {
   display: none;
   /* margin-left: 20px; */
-  margin-top: 20px;
-  background-color: #dedfc3;
+  margin-top: 0px;
+  /* background-color: #dedfc3;
   box-shadow: inset 0px 1px 5px black;
-  border-radius: 25px;
+  border-radius: 25px; */
 }
 
 .container {
@@ -169,11 +170,14 @@ html {
 
 .title {
   font-family: 'RimaRegular', serif;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
+  text-align: center;
   font-size: 18px;
-  line-height: 20.5px;
+  line-height: 21.5px;
   background-color: #dedfc3;
+  box-shadow: inset 0px 1px 5px black;
+  border-radius: 25px;
   /*  margin-top:10px;*/
   margin-top: 5px;
   margin-right: 5vw;
@@ -248,7 +252,7 @@ h1 {
   font-family: 'Till-Normal', sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
