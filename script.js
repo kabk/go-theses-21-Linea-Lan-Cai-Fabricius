@@ -6,40 +6,40 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#zero-dropdown").click(function(){
-    $("#zero-content").slideToggle("slow");
+  $("#Introduction-dropdown").click(function(){
+    $("#Introduction-content").slideToggle("slow");
   });
 });
 
 
 $(document).ready(function(){
-  $("#one-dropdown").click(function(){
-    $("#one-content").slideToggle("slow");
+  $("#Overview-dropdown").click(function(){
+    $("#Overview-content").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
-  $("#two-dropdown").click(function(){
-    $("#two-content").slideToggle("slow");
+  $("#Governmental-dropdown").click(function(){
+    $("#Governmental-content").slideToggle("slow");
   });
 });
 
 
 $(document).ready(function(){
-  $("#three-dropdown").click(function(){
-    $("#three-content").slideToggle("slow");
+  $("#Sociocultural-dropdown").click(function(){
+    $("#Sociocultural-content").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
-  $("#four-dropdown").click(function(){
-    $("#four-content").slideToggle("slow");
+  $("#Conclusion-dropdown").click(function(){
+    $("#Conclusion-content").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
-  $("#fifth-dropdown").click(function(){
-    $("#fifth-content").slideToggle("slow");
+  $("#Biography-dropdown").click(function(){
+    $("#Biography-content").slideToggle("slow");
   });
 });
 

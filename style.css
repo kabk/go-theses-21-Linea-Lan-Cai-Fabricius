@@ -47,13 +47,13 @@ html {
   border-radius: 25px;
 }
 
-#zero-dropdown {
+#Introduction-dropdown {
   height: 100%;
   margin-left: 0vw;
   margin-top: 20px;
 }
 
-#zero-content {
+#Introduction-content {
   display: none;
   /* margin-left: 20px; */
   margin-top: 20px;
@@ -62,13 +62,13 @@ html {
   border-radius: 25px;
 }
 
-#one-dropdown {
+#Overview-dropdown {
   height: 100%;
   margin-left: 0vw;
   margin-top: 20px;
 }
 
-#one-content {
+#Overview-content {
   display: none;
   /* margin-left: 20px; */
   margin-top: 20px;
@@ -77,13 +77,13 @@ html {
   border-radius: 25px;
 }
 
-#two-dropdown {
+#Governmental-dropdown {
   height: 100%;
   margin-left: 0vw;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
-#two-content {
+#Governmental-content {
   display: none;
   /* margin-left: 20px; */
   margin-top: 20px;
@@ -92,13 +92,13 @@ html {
   border-radius: 25px;
 }
 
-#three-dropdown {
+#Sociocultural-dropdown {
   height: 100%;
   margin-left: 0vw;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
-#three-content {
+#Sociocultural-content {
   display: none;
   /* margin-left: 20px; */
   margin-top: 20px;
@@ -107,13 +107,13 @@ html {
   border-radius: 25px;
 }
 
-#four-dropdown {
+#Conclusion-dropdown {
   height: 100%;
   margin-left: 0vw;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
-#four-content {
+#Conclusion-content {
   display: none;
   /* margin-left: 20px; */
   margin-top: 20px;
@@ -122,13 +122,13 @@ html {
   border-radius: 25px;
 }
 
-#fifth-dropdown {
+#Biography-dropdown {
   height: 100%;
   margin-left: 0vw;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
-#fifth-content {
+#Biography-content {
   display: none;
   /* margin-left: 20px; */
   margin-top: 20px;
@@ -138,12 +138,13 @@ html {
 }
 
 .container {
-  padding-top: 75px;
+  padding-top: 55px;
   padding-left: 20px;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
+
 }
 
 @media only screen and (orientation:landscape) {
@@ -158,8 +159,8 @@ html {
 }
 
 #header {
-  padding-top: 5px;
-  padding-left: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
   position: fixed;
   background-color: #6426ef;
   width: 100vw;
