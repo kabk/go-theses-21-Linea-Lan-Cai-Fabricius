@@ -1,45 +1,45 @@
 
 $(document).ready(function(){
-  $("#Abstract-dropdown").click(function(){
-    $("#Abstract-content").slideToggle("slow");
+  $("#Abstract_click").click(function(){
+    $("#Abstract_text").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
-  $("#Introduction-dropdown").click(function(){
-    $("#Introduction-content").slideToggle("slow");
-  });
-});
-
-
-$(document).ready(function(){
-  $("#Overview-dropdown").click(function(){
-    $("#Overview-content").slideToggle("slow");
-  });
-});
-
-$(document).ready(function(){
-  $("#Governmental-dropdown").click(function(){
-    $("#Governmental-content").slideToggle("slow");
+  $("#Introduction_click").click(function(){
+    $("#Introduction_text").slideToggle("slow");
   });
 });
 
 
 $(document).ready(function(){
-  $("#Sociocultural-dropdown").click(function(){
-    $("#Sociocultural-content").slideToggle("slow");
+  $("#Overview_click").click(function(){
+    $("#Overview_text").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
-  $("#Conclusion-dropdown").click(function(){
-    $("#Conclusion-content").slideToggle("slow");
+  $("#Governmental_click").click(function(){
+    $("#Governmental_text").slideToggle("slow");
+  });
+});
+
+
+$(document).ready(function(){
+  $("#Sociocultural_click").click(function(){
+    $("#Sociocultural_text").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
-  $("#Biography-dropdown").click(function(){
-    $("#Biography-content").slideToggle("slow");
+  $("#Conclusion_click").click(function(){
+    $("#Conclusion_text").slideToggle("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#Biography_click").click(function(){
+    $("#Biography_click").slideToggle("slow");
   });
 });
 

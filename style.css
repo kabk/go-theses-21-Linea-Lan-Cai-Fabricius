@@ -183,13 +183,13 @@ section {
   }
 }
 
-#Abstract-dropdown {
+#Abstract_click {
   height: 100%;
   margin-left: 0vw;
   /* margin-top: 10px; */
 }
 
-#Abstract-content {
+#Abstract_text {
   display: none;
   /* margin-left: 20px; */
   margin-top: 0px;
@@ -198,13 +198,13 @@ section {
   border-radius: 25px; */
 }
 
-#Introduction-dropdown {
+#Introduction_click {
   height: 100%;
   margin-left: 0vw;
   margin-top: 10px;
 }
 
-#Introduction-content {
+#Introduction_text {
   display: none;
   /* margin-left: 20px; */
   margin-top: 0px;
@@ -213,13 +213,13 @@ section {
   border-radius: 25px; */
 }
 
-#Overview-dropdown {
+#Overview_click {
   height: 100%;
   margin-left: 0vw;
   margin-top: 10px;
 }
 
-#Overview-content {
+#Overview_text {
   display: none;
   /* margin-left: 20px; */
   margin-top: 0px;
@@ -228,13 +228,13 @@ section {
   border-radius: 25px; */
 }
 
-#Governmental-dropdown {
+#Governmental_click {
   height: 100%;
   margin-left: 0vw;
   margin-top: 10px;
 }
 
-#Governmental-content {
+#Governmental_text {
   display: none;
   /* margin-left: 20px; */
   margin-top: 0px;
@@ -243,13 +243,13 @@ section {
   border-radius: 25px; */
 }
 
-#Sociocultural-dropdown {
+#Sociocultural_click {
   height: 100%;
   margin-left: 0vw;
   margin-top: 10px;
 }
 
-#Sociocultural-content {
+#Sociocultural_text {
   display: none;
   /* margin-left: 20px; */
   margin-top: 0px;
@@ -258,13 +258,13 @@ section {
   border-radius: 25px; */
 }
 
-#Conclusion-dropdown {
+#Conclusion_click {
   height: 100%;
   margin-left: 0vw;
   margin-top: 10px;
 }
 
-#Conclusion-content {
+#Conclusion_text {
   display: none;
   /* margin-left: 20px; */
   margin-top: 0px;
@@ -273,13 +273,13 @@ section {
   border-radius: 25px; */
 }
 
-#Biography-dropdown {
+#Biography_click {
   height: 100%;
   margin-left: 0vw;
   margin-top: 10px;
 }
 
-#Biography-content {
+#Biography_text {
   display: none;
   /* margin-left: 20px; */
   margin-top: 0px;
