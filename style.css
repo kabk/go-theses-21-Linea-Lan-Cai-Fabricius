@@ -105,12 +105,12 @@ h5 {
   font-weight: 900;
   font-style: normal;
   display: flex;
-  font-size: 66px;
+  font-size: 56px;
   -webkit-font-smoothing: antialiased;
   /* border-bottom: black 1px solid; */
   padding-top: 30px;
   padding-left: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   position: fixed;
   display: flex;
   background-color: white;
