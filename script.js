@@ -44,7 +44,7 @@ $(document).ready(function(){
 });
 
 let startOffset = 0;
-let startOffsetB = 20;
+let startOffsetB = 55;
 
 const pageMarquee = () => {
   requestAnimationFrame(pageMarquee)
@@ -52,8 +52,8 @@ const pageMarquee = () => {
   textPathB.setAttributeNS(null,"startOffset",startOffsetB+"%");
   if (startOffset >= 50) startOffset = 0;
   if (startOffsetB >= 50) startOffsetB = 0;
-  startOffset+= .02
-  startOffsetB+= .02
+  startOffset+= .07
+  startOffsetB+= .07
 }
 
 pageMarquee()
