@@ -44,7 +44,7 @@ $(document).ready(function(){
 });
 
 let startOffset = 0;
-let startOffsetB = 55;
+let startOffsetB = 20;
 
 const pageMarquee = () => {
   requestAnimationFrame(pageMarquee)
