@@ -11,8 +11,13 @@
   text-rendering: optimizelegibility !important;
 }
 
-/* Fonts */
+:root {
+  --lightgreen-full: #dedfc3;
+  --purple-full: #6426ef;
 
+}
+
+/* Fonts */
 @font-face {
   font-family: 'Till-Normal';
   src: url('fonts/Till-Normal.woff') format('woff'), url('fonts/Till-Normal.woff2') format('woff2');
@@ -54,6 +59,7 @@ div.indent {
   margin-top: 5px;
   margin-right: 5vw;
   height: 100%;
+
 }
 
 .paragraph {
@@ -74,10 +80,14 @@ div.indent {
 }
 
 .footnotes {
-  margin-right: 10vw;
+  margin-right: 0vw;
   height: 100%;
-  margin-left: 60px;
+  margin-left: 20px;
   text-indent: -40px;
+}
+
+u {
+color: var(--purple-full);
 }
 
 .paragraph sup {
@@ -105,6 +115,7 @@ div.indent {
   /*  text-align: justify;*/
   text-justify: inter-word;
   overflow-wrap: break-word;
+  color: var(--purple-full);
 }
 
 p {
@@ -114,7 +125,7 @@ p {
   font-family: 'RimaRegular';
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 20.5px;
   -webkit-font-smoothing: antialiased;
   hyphens: auto;
@@ -143,11 +154,13 @@ h5 {
 
 h1 {
   font-family: 'Till-Normal';
-  font-weight: 600;
+  font-weight: 900;
   font-style: normal;
   font-size: 30px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
+  margin-left: 20px;
+  color: var(--purple-full);
 }
 
 h2 {
@@ -157,7 +170,8 @@ h2 {
   font-size: 15px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
-  margin-top: 2px;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
 i {
