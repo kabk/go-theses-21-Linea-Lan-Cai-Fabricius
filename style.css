@@ -382,6 +382,13 @@ section {
   font-weight: normal;
 }
 
+textPath{
+  fill: var(--purple-full);
+}
+textPathB{
+  fill: var(--purple-full);
+}
+
 @media only screen and (orientation:landscape) {
   .container {
     padding-top: 10px;
