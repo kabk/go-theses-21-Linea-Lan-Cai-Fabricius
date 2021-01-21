@@ -16,7 +16,6 @@
   --purple-full: #6426ef;
   --black-full: #000000;
   --white-full: #ffffff;
-
 }
 
 /* Fonts */
@@ -43,8 +42,6 @@
     url('fonts/Rima-Medium.woff2') format('woff2');
 }
 
-
-
 body,
 html {
   background-color: var(--white-full);
@@ -68,8 +65,8 @@ div.indent {
   margin-top: 5px;
   margin-right: 5vw;
   height: 100%;
-
 }
+
 .title1 {
   padding-top: 20px;
   font-family: 'RimaRegular';
@@ -84,7 +81,6 @@ div.indent {
   margin-top: 5px;
   margin-right: 5vw;
   height: 100%;
-
 }
 
 .paragraph {
@@ -112,7 +108,7 @@ div.indent {
 }
 
 u {
-color: var(--purple-full);
+  color: var(--purple-full);
 }
 
 .paragraph sup {
@@ -125,7 +121,7 @@ color: var(--purple-full);
   line-height: 10px !important;
 }
 
-.by{
+.by {
   margin-left: 0px;
   /* text-indent: 30px; */
   font-family: 'RimaRegular';
@@ -143,29 +139,28 @@ color: var(--purple-full);
   color: var(--purple-full);
 }
 
-table{
+table {
   font-family: 'RimaRegular';
   font-weight: 400;
   font-style: normal;
   font-size: 10px;
   line-height: 15.5px;
   border-collapse: collapse;
-  box-shadow: inset 0px 1px 2px var(--white-full);
+  box-shadow: inset 0px 1px 2px var(--black-full);
   border-radius: 25px;
   table-layout: fixed;
   width: 100%;
-    margin-left: 20px;
+  margin-left: 20px;
   background-color: var(--lightgreen-full);
 }
 
-td, th{
+td, th {
   text-align: left;
   padding: 20px;
-border-bottom: 1px solid var(--black-full);
-
+  border-bottom: 1px solid var(--black-full);
 }
 
-.figure{
+.figure {
   /*  margin-left:30px;*/
   margin-left: 20px;
   /* text-indent: 30px; */
@@ -184,25 +179,26 @@ border-bottom: 1px solid var(--black-full);
   color: var(--purple-full);
   text-align: right;
 }
- paragraph_1 p{
-   /*  margin-left:30px;*/
-   margin-left: 20px;
-   /* text-indent: 30px; */
-   font-family: 'RimaRegular';
-   font-weight: 400;
-   font-style: normal;
-   font-size: 15px;
-   line-height: 20.5px;
-   -webkit-font-smoothing: antialiased;
-   hyphens: auto;
-   -webkit-hyphens: auto;
-   -ms-hyphens: auto;
-   /*  text-align: justify;*/
-   text-justify: inter-word;
-   overflow-wrap: break-word;
-   color: var(--lightgreen-full);
 
- }
+paragraph_1 p {
+  /*  margin-left:30px;*/
+  margin-left: 20px;
+  /* text-indent: 30px; */
+  font-family: 'RimaRegular';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20.5px;
+  -webkit-font-smoothing: antialiased;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  /*  text-align: justify;*/
+  text-justify: inter-word;
+  overflow-wrap: break-word;
+  color: var(--lightgreen-full);
+}
+
 p {
   /*  margin-left:30px;*/
   margin-left: 20px;
@@ -248,7 +244,7 @@ h1 {
   color: var(--purple-full);
 }
 
-.title1 h2{
+/* .title1 h2{
   font-family: 'RimaRegular';
   font-weight: 400;
   font-style: italic;
@@ -257,22 +253,29 @@ h1 {
   -webkit-font-smoothing: antialiased;
   margin-top: 5px;
   text-align: center;
-    color: var(--lightgreen-full);
+  color: var(--lightgreen-full);
 
-}
-
+} */
 h2 {
-  font-family: 'RimaRegular';
+  font-family: 'RimaRegularitalic';
   font-weight: 400;
-  font-style: italic;
   font-size: 15px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: center;
   color: var(--black-full);
 }
-
+.paragraph h2{
+  font-family: 'RimaMedium';
+  font-weight: 400;
+  font-size: 15px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 5px;
+  text-align: center;
+  color: var(--purple-full);
+}
 i {
   font-family: 'RimaRegularitalic';
 }
@@ -286,9 +289,14 @@ a {
 }
 
 .responsive {
-  width: 94%;
+  width: 100%;
   height: auto;
+  padding: 20px;
   margin-left: 20px;
+  box-shadow: inset 0px 1px 2px var(--white-full);
+  border-radius: 25px;
+  background-color: var(--black-full);
+
 }
 
 svg {
@@ -297,7 +305,6 @@ svg {
   height: 100%;
   display: flex;
   position: relative;
-
 }
 
 section {
@@ -306,9 +313,7 @@ section {
   font-style: normal;
   font-size: 5px;
   font-weight: normal;
-
 }
-
 
 @media only screen and (orientation:landscape) {
   .container {
