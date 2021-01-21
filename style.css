@@ -25,7 +25,7 @@
 }
 
 @font-face {
-  font-family: 'RimaRegular';
+  font-family: 'RimaRegularitalic';
   src: url('fonts/Rima-RegularItalic.woff') format('woff'),
     url('fonts/Rima-RegularItalic.woff2') format('woff2');
 }
@@ -89,10 +89,10 @@ html {
 .by{
   margin-left: 0px;
   /* text-indent: 30px; */
-  font-family: 'Till-Normal';
+  font-family: 'RimaRegular';
   font-weight: 400;
   font-style: normal;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 20.5px;
   -webkit-font-smoothing: antialiased;
   hyphens: auto;
