@@ -36,6 +36,10 @@ html {
   background-color: white;
 }
 
+div.indent {
+  text-indent: 5%;
+}
+
 .title {
   padding-top: 20px;
   font-family: 'RimaRegular';
