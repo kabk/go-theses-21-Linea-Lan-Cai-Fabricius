@@ -161,6 +161,7 @@ svg {
   height: 100%;
   display: flex;
   position: relative;
+
 }
 
 section {
@@ -170,6 +171,7 @@ section {
   font-size: 5px;
   font-weight: normal;
 }
+
 
 @media only screen and (orientation:landscape) {
   .container {
