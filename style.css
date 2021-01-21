@@ -213,6 +213,7 @@ a {
 .responsive {
   width: 94%;
   height: auto;
+margin-left: 20px;
 }
 
 svg {
