@@ -150,8 +150,8 @@ border-bottom: 1px solid var(--black-full);
   font-family: 'RimaRegular';
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
-  line-height: 20.5px;
+  font-size: 10px;
+  line-height: 15.5px;
   -webkit-font-smoothing: antialiased;
   hyphens: auto;
   -webkit-hyphens: auto;
@@ -160,6 +160,7 @@ border-bottom: 1px solid var(--black-full);
   text-justify: inter-word;
   overflow-wrap: break-word;
   color: var(--purple-full);
+  text-align: right;
 }
 
 p {
