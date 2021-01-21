@@ -351,6 +351,17 @@ a {
 
 }
 
+.responsive_3 {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: inset 0px 1px 2px var(--black-full);
+  border-radius: 25px;
+  background-color: var(--white-full);
+
+}
+
 img {
   border-radius: 25px;
 }
