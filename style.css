@@ -184,7 +184,25 @@ border-bottom: 1px solid var(--black-full);
   color: var(--purple-full);
   text-align: right;
 }
+ paragraph_1 p{
+   /*  margin-left:30px;*/
+   margin-left: 20px;
+   /* text-indent: 30px; */
+   font-family: 'RimaRegular';
+   font-weight: 400;
+   font-style: normal;
+   font-size: 15px;
+   line-height: 20.5px;
+   -webkit-font-smoothing: antialiased;
+   hyphens: auto;
+   -webkit-hyphens: auto;
+   -ms-hyphens: auto;
+   /*  text-align: justify;*/
+   text-justify: inter-word;
+   overflow-wrap: break-word;
+   color: var(--lightgreen-full);
 
+ }
 p {
   /*  margin-left:30px;*/
   margin-left: 20px;
@@ -201,7 +219,7 @@ p {
   /*  text-align: justify;*/
   text-justify: inter-word;
   overflow-wrap: break-word;
-  color: var(--lightgreen-full);
+  color: var(--black-full);
 }
 
 h5 {
@@ -220,7 +238,7 @@ h5 {
 }
 
 h1 {
-  font-family: 'RimaMedium';
+  font-family: 'Till-Normal';
   font-weight: 900;
   font-style: normal;
   font-size: 30px;
@@ -228,6 +246,19 @@ h1 {
   -webkit-font-smoothing: antialiased;
   text-align: center;
   color: var(--purple-full);
+}
+
+.title1 h2{
+  font-family: 'RimaRegular';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 5px;
+  text-align: center;
+    color: var(--lightgreen-full);
+
 }
 
 h2 {
@@ -239,7 +270,7 @@ h2 {
   -webkit-font-smoothing: antialiased;
   margin-top: 5px;
   text-align: center;
-  color: var(--lightgreen-full);
+  color: var(--black-full);
 }
 
 i {
