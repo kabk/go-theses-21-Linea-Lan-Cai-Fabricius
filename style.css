@@ -164,7 +164,7 @@ table {
   background-color: var(--lightgreen-full);
 }
 
-td, th {
+ td, tr {
   text-align: left;
   padding: 20px;
   border-bottom: 1px solid var(--black-full);
@@ -300,6 +300,7 @@ h2 {
   text-align: center;
   color: var(--black-full);
 }
+
 .paragraph h2{
   font-family: 'RimaMedium';
   font-weight: 400;
@@ -310,6 +311,8 @@ h2 {
   text-align: center;
   color: var(--purple-full);
 }
+
+
 i {
   font-family: 'RimaRegularitalic';
 }
