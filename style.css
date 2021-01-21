@@ -12,20 +12,24 @@
 }
 
 /* Fonts */
-@font-face {
-  font-family: 'RimaRegular';
-  src: url(fonts/RimaTrial-Regular.otf);
-}
-
-@font-face {
-  font-family: 'RimaRegularitalic';
-  src: url(fonts/RimaTrial-Regularitalic.otf);
-}
 
 @font-face {
   font-family: 'Till-Normal';
-  src: url(fonts/Till-Normal.otf);
+  src: url('fonts/Till-Normal.woff') format('woff'), url('fonts/Till-Normal.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: 'RimaRegular';
+  src: url('fonts/Rima-Regular.woff') format('woff'),
+    url('fonts/Rima-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'RimaRegular';
+  src: url('fonts/Rima-RegularItalic.woff') format('woff'),
+    url('fonts/Rima-RegularItalic.woff2') format('woff2');
+}
+
 
 body,
 html {
@@ -80,6 +84,23 @@ html {
   color: black;
   margin-bottom: -3px;
   line-height: 10px !important;
+}
+
+.by{
+  margin-left: 0px;
+  /* text-indent: 30px; */
+  font-family: 'Till-Normal';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 20.5px;
+  -webkit-font-smoothing: antialiased;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  /*  text-align: justify;*/
+  text-justify: inter-word;
+  overflow-wrap: break-word;
 }
 
 p {
