@@ -51,6 +51,10 @@ div.indent {
   text-indent: 5%;
 }
 
+.headliniecenter{
+  text-align: center;
+}
+
 .title {
   padding-top: 20px;
   font-family: 'RimaRegular';
@@ -403,6 +407,18 @@ textPathB{
   }
 }
 
+#Mother_click {
+  height: 100%;
+  margin-left: 0vw;
+  /* margin-top: 10px; */
+}
+
+#Mother_text {
+  display: none;
+  margin-top: 0px;
+}
+
+
 #Abstract_click {
   height: 100%;
   margin-left: 0vw;
@@ -496,4 +512,97 @@ textPathB{
   position: fixed;
   display: flex;
   width: 100vw;
+}
+
+
+.wrapper {
+  margin-left: 20px;
+  height: auto;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  /* background-color: blue; */
+}
+.inner-wrapper {
+  display: block;
+}
+.progress {
+  width: 300px;
+  height: 10px;
+  background-color: #fafafa;
+
+  .progress__inner {
+    width: 0;
+    height: 10px;
+    background-color: #4f5fff;
+  }
+}
+audio {
+  display: none;
+}
+.song {
+  text-align: center;
+  margin: 20px 0;
+
+  .title {
+    font-size: 16px;
+    color: #656565;
+  }
+  .artist {
+    font-size: 15px;
+    color: #858585;
+  }
+}
+.button {
+  width: 100px;
+  height: 100px;
+  padding: 22px 20px 20px 21px;
+  border-radius: 50%;
+  margin: 20px auto;
+  background: #ededed;
+  background: -webkit-linear-gradient(to top, #fefefe, #ededed);
+  background: linear-gradient(to top, #fefefe, #ededed);
+  border-bottom: 1px solid #dedede;
+  cursor: pointer;
+  color: #525252;
+}
+
+  &:hover {
+    background: #eaeaea;
+    background: -webkit-linear-gradient(to top, #fefefe, #eaeaea);
+    background: linear-gradient(to top, #fefefe, #eaeaea);
+    .button__inner {
+      background: #eaeaea;
+      background: -webkit-linear-gradient(to bottom, #fefefe, #eaeaea);
+      background: linear-gradient(to bottom, #fefefe, #eaeaea);
+      border-bottom: 1px solid #cfcfcf;
+    }
+
+
+  &:active {
+    background: #dadada;
+    background: -webkit-linear-gradient(to top, #fefefe, #dadada);
+    background: linear-gradient(to top, #fefefe, #dadada);
+    .button__inner {
+      background: #dedede;
+      background: -webkit-linear-gradient(to bottom, #fefefe, #dedede);
+      background: linear-gradient(to bottom, #fefefe, #dedede);
+      border-bottom: 1px solid #cfcfcf;
+    }
+  }
+
+  .button__inner {
+    padding: 30px 40px 30px 40px;
+    border-radius: 50%;
+    font-family: 'RimaRegular';
+    font-size: 32px;
+    background: #efefef;
+    background: -webkit-linear-gradient(to bottom, #fefefe, #efefef);
+    background: linear-gradient(to bottom, #fefefe, #efefef);
+    border-bottom: 1px solid #cdcdcd;
+
+    .fa.fa-pause {
+      margin-left: -3px;
+    }
+  }
 }

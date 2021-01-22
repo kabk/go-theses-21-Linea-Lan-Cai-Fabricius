@@ -1,3 +1,9 @@
+$(document).ready(function(){
+  $("#Mother_click").click(function(){
+    $("#Mother_text").slideToggle("slow");
+  });
+});
+
 
 $(document).ready(function(){
   $("#Abstract_click").click(function(){
@@ -57,3 +63,28 @@ const pageMarquee = () => {
 }
 
 pageMarquee()
+
+var button = document.querySelector('.button'),
+    icon   = document.querySelector('.button__inner'),
+    audio  = document.querySelector('audio'),
+    play   = false;
+
+button.addEventListener('click', function() {
+  if (!play) {
+    audio.play();
+    icon.innerHTML = '<i class="fa fa-pause"></i>';
+  } else {
+    audio.pause();
+    icon.innerHTML = '<i class="fa fa-play"></i>';
+  }
+
+  audio.addEventListener("timeupdate", function() {
+      var currentTime = audio.currentTime;
+      var duration = audio.duration;
+      var progress = document.querySelector('.progress__inner');
+
+      progress.style.width = (currentTime +.25)/duration*100+'%';
+  });
+
+  play = !play;
+}, false);
