@@ -210,13 +210,14 @@ u {
 }
 
 .by {
-  margin-left: 0px;
+  margin-left: 10px;
+  margin-top: 10px;
   /* text-indent: 30px; */
   font-family: 'RimaRegular';
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
-  line-height: 20.5px;
+  line-height: 17.5px;
   -webkit-font-smoothing: antialiased;
   hyphens: auto;
   -webkit-hyphens: auto;
