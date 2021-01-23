@@ -46,7 +46,6 @@ body,
 html {
   background-color: var(--white-full);
 }
-
 /* heart shape */
 .shape {
   fill: none;
@@ -80,19 +79,19 @@ html {
 }
 
 /* 2 heart shape */
-/* .shape1 {
+.shape1 {
   fill: none;
   /* stroke: white; */
-/* } */ */
+}
 
-/* #triangle {
+#hearttwo {
   width: 90vmin;
   height: auto;
   object-fit: contain;
   /* overflow: hidden; */
-} */
+}
 
-/* #textPathB {
+#textPathB {
   /* The font-size is really hacky, sorry :( */
   font-family: 'Till-Normal';
   --sizefactor: 1.112;
@@ -100,16 +99,16 @@ html {
   letter-spacing: calc(1em * var(--sizefactor));
   fill: var(--purple-full);
   font-weight: 800
-} */
+}
 
-/* .container2 {
+.container2 {
   width: 100%;
   height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   /* background-color: palevioletred; */
-/* } */ */
+}
 
 /* until here heart shape */
 div.indent {
@@ -570,3 +569,14 @@ textPathB{
 }
 
 /* Audio section */
+
+.sang p{
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  font-family: 'RimaRegular';
+  font-size: 0.7em;
+  margin-left: 20px;
+  text-align: center;
+  color: var(--purple-full);
+}

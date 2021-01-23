@@ -20,27 +20,22 @@ document.addEventListener("scroll", (event) => {
   window.requestAnimationFrame(() => offsetOnScroll(percent * -1, startOffset));
 });
 
-// Sources:
-//   - https://www.lenastanley.com/2020/09/animate-text-on-scroll-svg-tutorial.html
-//   - https://stackoverflow.com/questions/36017742/javascript-using-requestanimationframe-on-scroll-event
 
-// const textPathB = document.querySelector("#textPathB");
-//
-// const a = document.documentElement,
-//   b = document.body,
-//   st = "scrollTop",
-//   sh = "scrollHeight",
-//   startOffset = 0;
-//
-// const offsetOnScroll = (percent, startOffset) =>
-//   textPathB.setAttribute("startOffset", percent * 10 + startOffset);
-//
-// textPathB.setAttribute("startOffset", startOffset);
-//
-// document.addEventListener("scroll", (event) => {
-//   let percent = ((a[st] || b[st]) / ((a[sh] || b[sh]) - a.clientHeight)) * 100;
-//   window.requestAnimationFrame(() => offsetOnScroll(percent * -1, startOffset));
-// });
+/* number two; */
+const textPathB = document.querySelector("#textPathB");
+const aB = document.documentElement,
+    bB = document.body,
+    stB = "scrollTop",
+    shB = "scrollHeight",
+    startOffsetB = 0;
+const offsetOnScrollB = (percent, startOffsetB) =>
+    textPathB.setAttribute("startOffset", percent * 10 + startOffset);
+    textPathB.setAttribute("startOffset", startOffset);
+document.addEventListener("scroll", (event) => {
+    let percent = ((aB[stB] || bB[stB]) / ((aB[shB] || bB[shB]) - aB.clientHeight)) * 100;
+window.requestAnimationFrame(() => offsetOnScrollB(percent * +1, startOffset));
+});
+
 
 
 // SlideToggle
@@ -109,28 +104,3 @@ $(document).ready(function(){
 // }
 
 pageMarquee()
-
-var button = document.querySelector('.button'),
-    icon   = document.querySelector('.button__inner'),
-    audio  = document.querySelector('audio'),
-    play   = false;
-
-button.addEventListener('click', function() {
-  if (!play) {
-    audio.play();
-    icon.innerHTML = '<i class="fa fa-pause"></i>';
-  } else {
-    audio.pause();
-    icon.innerHTML = '<i class="fa fa-play"></i>';
-  }
-
-  audio.addEventListener("timeupdate", function() {
-      var currentTime = audio.currentTime;
-      var duration = audio.duration;
-      var progress = document.querySelector('.progress__inner');
-
-      progress.style.width = (currentTime +.25)/duration*100+'%';
-  });
-
-  play = !play;
-}, false);
