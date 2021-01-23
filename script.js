@@ -1,3 +1,26 @@
+// Sources:
+//   - https://www.lenastanley.com/2020/09/animate-text-on-scroll-svg-tutorial.html
+//   - https://stackoverflow.com/questions/36017742/javascript-using-requestanimationframe-on-scroll-event
+
+const textPath = document.querySelector("#textPath");
+
+const a = document.documentElement,
+  b = document.body,
+  st = "scrollTop",
+  sh = "scrollHeight",
+  startOffset = 0;
+
+const offsetOnScroll = (percent, startOffset) =>
+  textPath.setAttribute("startOffset", percent * 10 + startOffset);
+
+textPath.setAttribute("startOffset", startOffset);
+
+document.addEventListener("scroll", (event) => {
+  let percent = ((a[st] || b[st]) / ((a[sh] || b[sh]) - a.clientHeight)) * 100;
+  window.requestAnimationFrame(() => offsetOnScroll(percent * -1, startOffset));
+});
+
+
 $(document).ready(function(){
   $("#Mother_click").click(function(){
     $("#Mother_text").slideToggle("slow");
@@ -49,18 +72,18 @@ $(document).ready(function(){
   });
 });
 
-let startOffset = 0;
-let startOffsetB = 55;
-
-const pageMarquee = () => {
-  requestAnimationFrame(pageMarquee)
-  textPath.setAttributeNS(null,"startOffset",startOffset+"%");
-  textPathB.setAttributeNS(null,"startOffset",startOffsetB+"%");
-  if (startOffset >= 50) startOffset = 0;
-  if (startOffsetB >= 50) startOffsetB = 0;
-  startOffset+= .07
-  startOffsetB+= .07
-}
+// let startOffset = 0;
+// let startOffsetB = 55;
+//
+// const pageMarquee = () => {
+//   requestAnimationFrame(pageMarquee)
+//   textPath.setAttributeNS(null,"startOffset",startOffset+"%");
+//   textPathB.setAttributeNS(null,"startOffset",startOffsetB+"%");
+//   if (startOffset >= 50) startOffset = 0;
+//   if (startOffsetB >= 50) startOffsetB = 0;
+//   startOffset+= .07
+//   startOffsetB+= .07
+// }
 
 pageMarquee()
 
