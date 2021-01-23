@@ -46,6 +46,11 @@ body,
 html {
   background-color: var(--white-full);
 }
+
+.landingpage{
+  height: 100vh;
+  position: relative;
+}
 /* heart shape */
 .shape {
   fill: none;
@@ -71,23 +76,25 @@ html {
 
 .container1 {
   width: 100%;
-  height: 50vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
   /* background-color: palevioletred; */
 }
 
 /* 2 heart shape */
 .shape1 {
   fill: none;
+
   /* stroke: white; */
 }
 
 #hearttwo {
   width: 90vmin;
   height: auto;
-  object-fit: contain;
+  object-fit: none;
   /* overflow: hidden; */
 }
 
@@ -102,12 +109,13 @@ html {
 }
 
 .container2 {
+  margin-left: 20px;
   width: 100%;
-  height: 50vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: palevioletred; */
+  position: absolute;
 }
 
 /* until here heart shape */
