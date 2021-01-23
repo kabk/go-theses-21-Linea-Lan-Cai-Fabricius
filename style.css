@@ -47,11 +47,76 @@ html {
   background-color: var(--white-full);
 }
 
+/* heart shape */
+.shape {
+  fill: none;
+  /* stroke: white; */
+}
+
+#heart {
+  width: 90vmin;
+  height: auto;
+  object-fit: contain;
+  /* overflow: hidden; */
+}
+
+#textPath {
+  /* The font-size is really hacky, sorry :( */
+  font-family: 'Till-Normal';
+  --sizefactor: 1.112;
+  font-size: calc(1em * var(--sizefactor));
+  letter-spacing: calc(1em * var(--sizefactor));
+  fill: var(--purple-full);
+  font-weight: 800
+}
+
+.container1 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: palevioletred; */
+}
+
+/* 2 heart shape */
+/* .shape1 {
+  fill: none;
+  /* stroke: white; */
+/* } */ */
+
+/* #triangle {
+  width: 90vmin;
+  height: auto;
+  object-fit: contain;
+  /* overflow: hidden; */
+} */
+
+/* #textPathB {
+  /* The font-size is really hacky, sorry :( */
+  font-family: 'Till-Normal';
+  --sizefactor: 1.112;
+  font-size: calc(1em * var(--sizefactor));
+  letter-spacing: calc(1em * var(--sizefactor));
+  fill: var(--purple-full);
+  font-weight: 800
+} */
+
+/* .container2 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: palevioletred; */
+/* } */ */
+
+/* until here heart shape */
 div.indent {
   text-indent: 5%;
 }
 
-.headliniecenter{
+.headliniecenter {
   text-align: center;
 }
 
@@ -90,6 +155,7 @@ div.indent {
 .paragraph {
   margin-right: 10vw;
 }
+
 .figuretext p {
   margin-left: 40px;
   font-family: 'RimaRegular';
@@ -168,7 +234,7 @@ table {
   background-color: var(--lightgreen-full);
 }
 
- td, tr {
+td, tr {
   text-align: left;
   padding: 20px;
   border-bottom: 1px solid var(--black-full);
@@ -213,7 +279,7 @@ table {
   color: var(--lightgreen-full);
 }
 
-.imagesanalyse{
+.imagesanalyse {
   /*  margin-left:30px;*/
   width: 500px;
   margin-left: 20px;
@@ -305,7 +371,7 @@ h2 {
   color: var(--black-full);
 }
 
-.paragraph h2{
+.paragraph h2 {
   font-family: 'RimaMedium';
   font-weight: 400;
   font-size: 15px;
@@ -315,7 +381,6 @@ h2 {
   text-align: center;
   color: var(--purple-full);
 }
-
 
 i {
   font-family: 'RimaRegularitalic';
@@ -337,7 +402,6 @@ a {
   box-shadow: inset 0px 1px 2px var(--white-full);
   border-radius: 25px;
   background-color: var(--black-full);
-
 }
 
 .responsive_1 {
@@ -348,14 +412,12 @@ a {
   box-shadow: inset 0px 1px 2px var(--black-full);
   border-radius: 25px;
   background-color: var(--lightgreen-full);
-
 }
 
-.responsive_2{
+.responsive_2 {
   width: 100%;
   height: auto;
   border-radius: 25px;
-
 }
 
 .responsive_3 {
@@ -366,13 +428,13 @@ a {
   box-shadow: inset 0px 1px 2px var(--black-full);
   border-radius: 25px;
   background-color: var(--white-full);
-
 }
 
 img {
   border-radius: 25px;
 }
 
+/* old heart shape */
 /* svg {
   box-sizing: border-box;
   width: 100%;
@@ -395,7 +457,7 @@ textPath{
 textPathB{
   fill: var(--purple-full);
 } */
-
+/* until old heart shape */
 @media only screen and (orientation:landscape) {
   .container {
     padding-top: 10px;
@@ -407,6 +469,7 @@ textPathB{
   }
 }
 
+/* SlideToggle */
 #Mother_click {
   height: 100%;
   margin-left: 0vw;
@@ -417,7 +480,6 @@ textPathB{
   display: none;
   margin-top: 0px;
 }
-
 
 #Abstract_click {
   height: 100%;
@@ -496,149 +558,15 @@ textPathB{
   margin-top: 0px;
 }
 
+/* until here SlideToggle */
 .container {
   padding-top: 150px;
   padding-left: 20px;
-    padding-bottom: 55px;
+  padding-bottom: 55px;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   /* overflow: hidden; */
 }
 
-#header {
-  padding-top: 10px;
-  padding-left: 10px;
-  position: fixed;
-  display: flex;
-  width: 100vw;
-}
-
-
-.wrapper {
-  margin-left: 20px;
-  height: auto;
-  display: flex;
-  align-items: right;
-  justify-content: center;
-  /* background-color: blue; */
-}
-.inner-wrapper {
-  display: block;
-}
-.progress {
-  width: 300px;
-  height: 10px;
-  background-color: #fafafa;
-
-  .progress__inner {
-    width: 0;
-    height: 10px;
-    background-color: #4f5fff;
-  }
-}
-audio {
-  display: none;
-}
-.song {
-  text-align: center;
-  margin: 20px 0;
-
-  .title {
-    font-size: 16px;
-    color: #656565;
-  }
-  .artist {
-    font-size: 15px;
-    color: #858585;
-  }
-}
-.button {
-  width: 100px;
-  height: 100px;
-  padding: 22px 20px 20px 21px;
-  border-radius: 50%;
-  margin: 20px auto;
-  background: #ededed;
-  background: -webkit-linear-gradient(to top, #fefefe, #ededed);
-  background: linear-gradient(to top, #fefefe, #ededed);
-  border-bottom: 1px solid #dedede;
-  cursor: pointer;
-  color: #525252;
-}
-
-  &:hover {
-    background: #eaeaea;
-    background: -webkit-linear-gradient(to top, #fefefe, #eaeaea);
-    background: linear-gradient(to top, #fefefe, #eaeaea);
-    .button__inner {
-      background: #eaeaea;
-      background: -webkit-linear-gradient(to bottom, #fefefe, #eaeaea);
-      background: linear-gradient(to bottom, #fefefe, #eaeaea);
-      border-bottom: 1px solid #cfcfcf;
-    }
-
-
-  &:active {
-    background: #dadada;
-    background: -webkit-linear-gradient(to top, #fefefe, #dadada);
-    background: linear-gradient(to top, #fefefe, #dadada);
-    .button__inner {
-      background: #dedede;
-      background: -webkit-linear-gradient(to bottom, #fefefe, #dedede);
-      background: linear-gradient(to bottom, #fefefe, #dedede);
-      border-bottom: 1px solid #cfcfcf;
-    }
-  }
-
-  .button__inner {
-    padding: 30px 40px 30px 40px;
-    border-radius: 50%;
-    font-family: 'RimaRegular';
-    font-size: 32px;
-    background: #efefef;
-    background: -webkit-linear-gradient(to bottom, #fefefe, #efefef);
-    background: linear-gradient(to bottom, #fefefe, #efefef);
-    border-bottom: 1px solid #cdcdcd;
-
-    .fa.fa-pause {
-      margin-left: -3px;
-    }
-  }
-}
-
-.shape {
-  fill: none;
-  /* stroke: white; */
-}
-#heart {
-  width: 90vmin;
-  height: auto;
-  object-fit: contain;
-  /* overflow: hidden; */
-}
-#textPath {
-  /* The font-size is really hacky, sorry :( */
-  font-family: 'Till-Normal';
-  --sizefactor: 1.012;
-  font-size: calc(1em * var(--sizefactor));
-  letter-spacing: calc(1em * var(--sizefactor));
-  fill: var(--purple-full);
-  font-weight: 800
-}
-.container1 {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: palevioletred; */
-}
-.container2 {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-}
+/* Audio section */

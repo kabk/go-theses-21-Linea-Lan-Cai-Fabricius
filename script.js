@@ -20,7 +20,30 @@ document.addEventListener("scroll", (event) => {
   window.requestAnimationFrame(() => offsetOnScroll(percent * -1, startOffset));
 });
 
+// Sources:
+//   - https://www.lenastanley.com/2020/09/animate-text-on-scroll-svg-tutorial.html
+//   - https://stackoverflow.com/questions/36017742/javascript-using-requestanimationframe-on-scroll-event
 
+// const textPathB = document.querySelector("#textPathB");
+//
+// const a = document.documentElement,
+//   b = document.body,
+//   st = "scrollTop",
+//   sh = "scrollHeight",
+//   startOffset = 0;
+//
+// const offsetOnScroll = (percent, startOffset) =>
+//   textPathB.setAttribute("startOffset", percent * 10 + startOffset);
+//
+// textPathB.setAttribute("startOffset", startOffset);
+//
+// document.addEventListener("scroll", (event) => {
+//   let percent = ((a[st] || b[st]) / ((a[sh] || b[sh]) - a.clientHeight)) * 100;
+//   window.requestAnimationFrame(() => offsetOnScroll(percent * -1, startOffset));
+// });
+
+
+// SlideToggle
 $(document).ready(function(){
   $("#Mother_click").click(function(){
     $("#Mother_text").slideToggle("slow");
