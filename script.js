@@ -17,7 +17,7 @@ textPath.setAttribute("startOffset", startOffset);
 
 document.addEventListener("scroll", (event) => {
   let percent = ((a[st] || b[st]) / ((a[sh] || b[sh]) - a.clientHeight)) * 100;
-  window.requestAnimationFrame(() => offsetOnScroll(percent * -1, startOffset));
+  window.requestAnimationFrame(() => offsetOnScroll(percent * +1, startOffset));
 });
 
 
@@ -33,7 +33,7 @@ const offsetOnScrollB = (percent, startOffsetB) =>
     textPathB.setAttribute("startOffset", startOffset);
 document.addEventListener("scroll", (event) => {
     let percent = ((aB[stB] || bB[stB]) / ((aB[shB] || bB[shB]) - aB.clientHeight)) * 100;
-window.requestAnimationFrame(() => offsetOnScrollB(percent * +1, startOffset));
+window.requestAnimationFrame(() => offsetOnScrollB(percent * -1, startOffset));
 });
 
 
@@ -103,4 +103,4 @@ $(document).ready(function(){
 //   startOffsetB+= .07
 // }
 
-pageMarquee()
+// pageMarquee()
