@@ -590,3 +590,31 @@ textPathB{
   text-align: center;
   color: var(--purple-full);
 }
+
+
+.box {
+  background: var(--green);
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 20px rgba(0,0,0,0.3);
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+.box.show {
+  transform: translateX(0);
+}
+
+.box h2 {
+  font-size: 36px;
+}
