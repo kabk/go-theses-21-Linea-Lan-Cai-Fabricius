@@ -294,17 +294,17 @@ td, tr {
   width: 100%;
   height: 100%;
 
-  margin-left: 6%;
+  margin-left: 8%;
   /* margin-right: 5%; */
 
-  padding-right: 5%;
+  padding-right: 3%;
   /* text-indent: 30px; */
   font-family: 'RimaRegular';
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  font-size: 15px;
-  line-height: 20.5px;
+  font-size: 10px;
+  line-height: 15.5px;
   -webkit-font-smoothing: antialiased;
   hyphens: auto;
   -webkit-hyphens: auto;
@@ -313,7 +313,7 @@ td, tr {
   overflow-wrap: break-word;
   box-shadow: inset 0px 1px 2px var(--black-full);
   background-color: var(--lightgreen-full);
-  border-radius: 25px;
+  border-radius: 25px
 }
 
 p {
@@ -323,7 +323,7 @@ p {
   font-family: 'RimaRegular';
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 10px;
   line-height: 20.5px;
   -webkit-font-smoothing: antialiased;
   hyphens: auto;
