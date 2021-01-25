@@ -588,10 +588,10 @@ textPathB{
 /* until here SlideToggle */
 .container {
   padding-top: 150px;
-  padding-left: 30px;
+  padding-left: 00px;
   padding-bottom: 55px;
   box-sizing: border-box;
-  width: 95%;
+  width: 99%;
   height: 100%;
   margin-left: 2.5%;
   margin-right: 2.5%;
