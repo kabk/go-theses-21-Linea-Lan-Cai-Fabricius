@@ -145,6 +145,11 @@ div.indent {
   height: 100%;
 }
 
+.title:hover{
+  background-color: var(--white-full);
+}
+
+
 .title1 {
   padding-top: 20px;
   font-family: 'RimaRegular';
@@ -361,6 +366,8 @@ h1 {
   color: var(--purple-full);
 }
 
+
+
 /* .title1 h2{
   font-family: 'RimaRegular';
   font-weight: 400;
@@ -384,6 +391,7 @@ h2 {
   text-align: center;
   color: var(--black-full);
 }
+
 
 .paragraph h2 {
   font-family: 'RimaMedium';
@@ -504,6 +512,7 @@ textPathB{
   margin-left: 0vw;
   /* margin-top: 10px; */
 }
+
 
 #Mother_text {
   display: none;
@@ -639,3 +648,28 @@ textPathB{
 .box h2 {
   font-size: 36px;
 } */
+
+.btn {
+  background-color: var(--purple-full);
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  margin-left: 13%;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+
+
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.btn:focus {
+  outline: none;
+}
