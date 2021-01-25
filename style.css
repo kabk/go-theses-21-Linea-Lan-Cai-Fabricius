@@ -323,7 +323,7 @@ p {
   font-family: 'RimaRegular';
   font-weight: 400;
   font-style: normal;
-  font-size: 10px;
+  font-size: 15px;
   line-height: 20.5px;
   -webkit-font-smoothing: antialiased;
   hyphens: auto;
@@ -376,7 +376,7 @@ h1 {
 h2 {
   font-family: 'RimaRegularitalic';
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   margin-top: 10px;
