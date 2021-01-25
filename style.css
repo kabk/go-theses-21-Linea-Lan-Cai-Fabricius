@@ -45,6 +45,7 @@
 body,
 html {
   background-color: var(--lightgreen-full);
+  overflow-x: hidden;
 }
 
 .landingpage{
@@ -590,12 +591,10 @@ textPathB{
   padding-left: 30px;
   padding-bottom: 55px;
   box-sizing: border-box;
-  width: 98%;
+  width: 95%;
   height: 100%;
-
-  margin-left: 0%;
-  margin-right: 2%;
-  /* overflow: hidden; */
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 /* Audio section */
