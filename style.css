@@ -145,10 +145,6 @@ div.indent {
   height: 100%;
 }
 
-.title:hover{
-  background-color: var(--white-full);
-}
-
 
 .title1 {
   padding-top: 20px;
@@ -606,6 +602,7 @@ textPathB{
   height: 100%;
   margin-left: 2.5%;
   margin-right: 2.5%;
+  cursor: pointer;
 }
 
 /* Audio section */
